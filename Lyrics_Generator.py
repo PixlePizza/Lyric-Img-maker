@@ -22,7 +22,6 @@ def new_IMAGE(msg, count):
 lyrixfile = open("lyrix.txt","r")
 lyrix = lyrixfile.read()
 lyrix = lyrix.splitlines()
-pprint(lyrix)
 
 for i in range(0, len(lyrix)):
     new_IMAGE(lyrix[i], i)
