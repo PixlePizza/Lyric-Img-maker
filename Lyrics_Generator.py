@@ -15,7 +15,7 @@ def new_IMAGE(msg, count):
     w, h = draw.textsize(msg)
     draw.text(((W-w)/2,(H-h)/2), msg, fill="black")
 
-    img.save("Shine i wanna/"+count+" I just wanna shine.png", "PNG")
+    img.save(count, "PNG")
 
     return
 
